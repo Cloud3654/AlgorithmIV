@@ -4,7 +4,7 @@
 
 using namespace std;
 
-struct Node {
+struct Node { // Node 변수형 생성
     vector <pair<int,int>> cld; // cld(pair-first는 자신의 번호, pair-second는 가는 데 드는 가중치) 생성
     bool visit; // visit(방문 체크) 생성
 };
