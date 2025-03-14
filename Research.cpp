@@ -29,8 +29,7 @@ void dfs(int idx, int sumWei) // dfs(가중치 탐색 함수) 정의
     }
 }
 
-int main()
-{
+int main() {
     int m; // m(간선 수) 생성
     cin >> n >> m; // n, m 입력
     for (int sp, ep, w; m--; ) { // sp(시작 지점), ep(다음 지점), w(가중치) 생성, m번 반복
